@@ -2,4 +2,12 @@
     <string name="app_name">Lesson1java</string>
     <string name="hello_world">Hello World!</string>
     <string name="hello_word">Hello Word!</string>
-</resources>
+    <string name="name_app">Yoogen</string>
+    <string name="hint_enter">Войдите для продолжения</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_password">Пароль</string>
+    <string name="hint_password">Забли пароль?</string>
+    <string name="button_enter">Вход</string>
+    <string name="hint_question">У вас нет учётной записи?</string>
+    <string name="registration_enter">Регистрация</string>
+"</resources>
