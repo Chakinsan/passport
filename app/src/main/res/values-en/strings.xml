@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lesson1java</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="hello_word">Hello Word!</string>
+    <string name="name_app">Yoogen</string>
+    <string name="hint_enter">Login to continue</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_password">Password</string>
+    <string name="hint_password">Forgot your password?</string>
+    <string name="button_enter">Login</string>
+    <string name="hint_question">You do not have an account?</string>
+    <string name="registration_enter">Registration</string>
+</resources>

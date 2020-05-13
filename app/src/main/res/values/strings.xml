@@ -6,7 +6,7 @@
     <string name="hint_enter">Войдите для продолжения</string>
     <string name="enter_email">Email</string>
     <string name="enter_password">Пароль</string>
-    <string name="hint_password">Забли пароль?</string>
+    <string name="hint_password">Забыли пароль?</string>
     <string name="button_enter">Вход</string>
     <string name="hint_question">У вас нет учётной записи?</string>
     <string name="registration_enter">Регистрация</string>
