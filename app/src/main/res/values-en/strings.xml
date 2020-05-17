@@ -11,4 +11,6 @@
     <string name="button_enter">Login</string>
     <string name="hint_question">You do not have an account?</string>
     <string name="registration_enter">Registration</string>
+    <string name="name_registr">Name</string>
+    <string name="fam_registr">Surname</string>
 </resources>

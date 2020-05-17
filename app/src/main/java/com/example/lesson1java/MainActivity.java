@@ -1,17 +1,19 @@
 package com.example.lesson1java;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
-import android.media.Image;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private ImageView imj7;
+    private TextView registr;
 
 
     @Override
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.yoogen_layout);
         addListennerOnImaje();
+        addClickerText();
     }
     public void addListennerOnImaje () {
         imj7 = findViewById(R.id.imageView7);
@@ -48,5 +51,18 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
     }
+        public void addClickerText (){
+        registr = findViewById(R.id.textView38);
+        registr.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(MainActivity.this,Registration.class);
+                        startActivity(intent);
+
+                    }
+                }
+        );
+        }
 
 }

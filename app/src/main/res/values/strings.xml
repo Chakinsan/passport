@@ -10,4 +10,7 @@
     <string name="button_enter">Вход</string>
     <string name="hint_question">У вас нет учётной записи?</string>
     <string name="registration_enter">Регистрация</string>
-"</resources>
+    <string name="name_registr">Имя</string>
+    <string name="fam_registr">Фамилия</string>
+    "
+</resources>
